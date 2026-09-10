@@ -268,7 +268,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/dreamxbotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/kkranime">[ KKRANIME ]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/Kdrama_knox">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/kkranime">[ KKRANIME ]</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
