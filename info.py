@@ -64,7 +64,7 @@ auth_channels     = environ.get("AUTH_CHANNELS", "-100")# Channels for force sub
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')    # QR code image for payments
+QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/68c9b4fe511ea9fb8cd4d-a66ef18257d0e1c67f.jpg')    # QR code image for payments
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'bajajpay.6879729.cu48106117@indus')    # Owner UPI ID for payments
 
 STAR_PREMIUM_PLANS = {
