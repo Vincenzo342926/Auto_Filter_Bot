@@ -377,7 +377,7 @@ class Database:
 
     async def give_free_trial(self, user_id):
         user_id = user_id
-        seconds = 5*60         
+        seconds = 15*24*60*60         
         expiry_time = datetime.datetime.now() + datetime.timedelta(seconds=seconds)
         user_data = {"id": user_id, "expiry_time": expiry_time, "has_free_trial": True}
         await self.users.update_one({"id": user_id}, {"$set": user_data}, upsert=True)
